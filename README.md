@@ -51,9 +51,6 @@ Syftet med övningen är lära sig att bygga en enkel reactapp med flera kompone
 ### Din uppgift:
 
 Skapa ett memoryspel med valfritt kort (exempelvis 10 st) där användaren kan starta spelet med en knapp för att sedan visa spelytan. Om kortet visar baksidan ska användaren kunna vända kortet. Efter att användaren vänt två kort, ska de vändas tillbaka igen. Om användaren får en match ska dessa kort ligga kvar med framsidan och inte kunna klickas på. 
-
-
-1. Användaren ska kunna starta ett nytt memoryspel genom en knapp "New memorygame". 
  
 
 ## 1. Sätta upp ett Reactprojekt med Vite 
