@@ -139,12 +139,12 @@ D.v.s du ska skapa en funktion i Appkomponenten som kan ha information om vilket
  
  1. Definera två nya states i App som hanterar det första eller andra kortet (exempelvis setCardOne, setCardTwo). Använd `null` som initialt värde för båda.
  
- 2. Skapa logik (exempelvis ternary operator) som avgör om det klickade kortet ska sättas till setCardOne eller setCardTwo. Detta kan göras för att se om nuvarande värde är satt eller inte. 
+ 2. Skapa logik (exempelvis ternary operator) som avgör om det klickade kortet ska sättas till CardOne eller CardTwo. Exempelvis, har cardOne ett värdet ska du använda setCardTwo annars setCardOne.
 
  
 ## 8. Kolla match av kort
 
-1. För att veta om två kort har valts använder du istället useEffect. Ta första kortet och andra kortet innanför [] för att trigga funktionen när någon av dessa korts värde förändras. Använd dig av denna hook och kolla om de två korten matchar.
+1. För att veta om två kort har valts använder du istället useEffect. Ta första kortet och andra kortet innanför [] för att trigga funktionen när någon av dessa korts värde förändras. Låt alltså cardOne och cardTwo vara i dependeciesarrayen för useEffect.
 
 2. Utöka arrayen av kort med en property `matched` som är satt false till en början. Uppdaterade de matchade korten med `true
 
