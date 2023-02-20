@@ -43,6 +43,8 @@ Använd useState för att:
 1. Öka en räknare med + 1. 
 2. Toggla. Klicka på knappen => Dölj/visa något
 
+Testa även UseEffect, exempelvis att sidans titel skkrivs ut om en state ändras.
+
 
 # 👩🏽‍💻 Övning: Memory
 
