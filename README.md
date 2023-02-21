@@ -22,9 +22,11 @@
 
 Diskutera följande frågor i studiegruppen medan ni jobbar, redovisa sedan för lärare. Gör egna anteckningar i syfte för kommande teorihandbok om React.
 
-* Vad är skillnaden mellan useState och useEffect?
+* Vad är skillnaden mellan props och state? 
+* Hur hanterar man states i en funktionell komponent med useState?
 * Vad menas med lifting state?
-* Vad är en side-effect?
+* Vad är en side-effect? 
+* Vad används useEffect till?
 * Vad är en callback handler?
 
 ### Gotcha!
