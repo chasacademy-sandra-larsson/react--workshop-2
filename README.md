@@ -40,12 +40,9 @@ Läs mer här: [https://reactjs.org/docs/hooks-reference.html](https://reactjs.o
 
 # 🏃 Uppvärmning 
 
-Använd useState för att:
-
-1. Öka en räknare med + 1. 
-2. Toggla. Klicka på knappen => Dölj/visa något
-
-Testa även UseEffect, exempelvis att sidans titel skkrivs ut om en state ändras.
+1. Öka en räknare med + 1 (useState). 
+2. Toggla. Klicka på knappen => Dölj/visa något (useState)
+3. Skriv ut sidan titel när en timer räknat till 10s (useEffect)
 
 
 # 👩🏽‍💻 Övning: Memory
